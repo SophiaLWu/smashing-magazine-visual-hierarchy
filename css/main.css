@@ -1,0 +1,157 @@
+*,
+*:before,
+*:after {
+   box-sizing: border-box;
+}
+
+div {
+  border-radius: 5px;
+}
+
+body {
+  margin-left: 10px;
+  background: #eaeaea;
+  font-family: 'Neuton', serif;
+  font-weight: 400;
+}
+
+.top-nav {
+  position: relative;
+  width: 68%;
+  height: 80px;
+}
+
+.logo-container {
+  position: relative;
+  height: 90px;
+  width: 21%;
+  background: white; 
+  float: left;
+}
+
+#logo {
+  position: absolute;
+  vertical-align: middle;
+  height: 50%;
+  width: 80%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  background: #bcbcbc;
+}
+
+.nav-buttons {
+  position: relative;
+  height: 70px;
+  width: 420px;
+  margin-top: 10px;
+  margin-left: 10px;
+  background: #d3d3d3;
+  float: left;
+}
+
+.social-media-buttons {
+  position: relative;
+  height: 20px;
+  width: 120px;
+  margin-top: 50px;
+  background: #d3d3d3;
+  float: right;
+}
+
+.main-content {
+  clear: both;
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 68%;
+  height: 1500px;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  background: white;
+}
+
+.sidebar {
+  display: inline-block;
+  margin-top: 50px;
+  margin-left: 10px;
+  width: 20%;
+  height: 970px;
+  float: left;
+}
+
+.sidebar ul {
+  margin-top: 24px;
+  margin-left: 45px;
+}
+
+.sidebar-header {
+  margin-top: 30px;
+  font-size: 24px;
+  color: #6d6d6d;
+}
+
+.sidebar-header:first-of-type {
+  margin-top: 0;
+}
+
+.sidebar-link {
+  margin-top: 10px;
+  font-size: 16px;
+  color: #8c8c8c;
+}
+
+.articles {
+  display: inline-block;
+  float: left;
+  margin-top: 50px;
+  margin-left: 30px;
+  width: 72%;
+  height: 1450px;
+  overflow: hidden;
+}
+
+.article {
+  height: 700px;
+  margin-bottom: 30px;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.article-title {
+  position: relative;
+  width: 90%;
+  margin: 10px auto;
+  color: #494949;
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.article-author {
+  height: 100px;
+  width: 90%;
+  border-radius: 5px;
+  margin: 30px auto;
+  background: #b2b2b2;
+}
+
+
+.article-body {
+  height: 350px;
+  width: 90%;
+  margin: 50px auto;
+  background: #a3a3a3;
+}
+
+.search {
+  position: absolute;
+  top: 50px;
+  right: 22px;
+  width: 28%;
+  height: 80px;
+  background: #d3d3d3;
+}
